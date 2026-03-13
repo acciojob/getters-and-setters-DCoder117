@@ -27,6 +27,8 @@ class Teacher extends Person {
 	}
 }
 
+let t1 = new Teacher("Minakshi",20);
+
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
