@@ -7,12 +7,6 @@ class Person {
 	get name(){
 		return this.name;
 	}
-	get age(){
-		return this.age;
-	}
-	set name(name){
-		this.name = name;
-	}
 	set age(val){
 		this.age = val;
 	}
@@ -29,8 +23,6 @@ class Teacher extends Person {
 		console.log(`${this.name} is teaching`);
 	}
 }
-
-let t1 = new Teacher("Minakshi",20);
 
 // Do not change the code below this line
 window.Person = Person;
