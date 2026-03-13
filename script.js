@@ -4,29 +4,24 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
-	get(){
+	get name(){
 		return this.name;
 	}
-	set(age){
-		this.age = age;
+	get age(){
+		return this.age;
+	}
+	set age(val){
+		this.age = val;
 	}
 }
 
 class Student extends Person {
-	constructor(name, age){
-		super(name);
-		super(age);
-	}
 	study(){
 		console.log(`${this.name} is studying`);
 	}
 }
 
 class Teacher extends Person {
-	constructor(name, age){
-		super(name);
-		super(age);
-	}
 	teach(){
 		console.log(`${this.name} is teaching`);
 	}
